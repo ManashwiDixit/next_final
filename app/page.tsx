@@ -1,4 +1,5 @@
 import { revalidatePosts } from "@/app/actions/revalidate";
+import PopupButton from "@/app/components/PopupButton";
 
 async function getPosts() {
   console.log("getPosts called");
@@ -18,6 +19,8 @@ export default async function Page() {
 
   return (
     <main style={{ padding: "20px" }}>
+
+      <PopupButton />
       <h1>Posts</h1>
 
       {}
