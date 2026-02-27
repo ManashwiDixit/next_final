@@ -5,6 +5,9 @@ const nextConfig = {
       fullUrl: true,
     },
   },
+    images: {
+    domains: ["picsum.photos"],
+  },
 };
 
 export default nextConfig;
